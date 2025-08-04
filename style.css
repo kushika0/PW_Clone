@@ -1,0 +1,287 @@
+/* body {
+  background-color: #111;
+  color: white;
+} */
+
+.navbar {
+  /* background-color: #111; */
+  padding: 1rem 2rem;
+  transition: 0.3s ease;
+  height: 72px;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  transition: 0, 3 ease;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 8px;
+}
+
+.course {
+  background-color: #252424;
+}
+
+.iim:hover {
+
+  border-bottom: 1px solid #ffffff;
+  /* or your preferred color */
+  /* padding-bottom: 4px; */
+  /* space between text and underline */
+}
+
+
+/* .course:hover,
+.Offline:hover {
+  background-color: #ffffff;
+  color: #111;
+
+} */
+/* 
+.course:hover,
+.Offline:hover>.nav-link {
+  color: #000 !important;
+} */
+
+.login-btn {
+  border: 1px solid rgb(171, 28, 28);
+  color: rgb(151, 30, 30);
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.login-btn:hover {
+  color: rgb(206, 107, 107);
+  border: 1px solid rgb(206, 107, 107);
+}
+
+.nav-link {
+  color: white !important;
+  margin-right: 15px;
+}
+
+.dropdown-menu {
+  background-color: #222;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #333;
+}
+
+.search {
+  width: 284px;
+  height: 40px;
+  border: 1px solid white;
+  background-color: #3d3939;
+  color: #fff;
+  border-radius: 5px;
+  /* border-color: #ffffff; */
+}
+
+input::placeholder {
+  color: white;
+
+}
+
+/* .collapse{
+  display: flex;
+  flex-wrap: wrap-reverse;
+} */
+@media only screen and (max-width:1200px) {
+  .btn-search {
+    display: none;
+  }
+
+  .hero-section {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .search-icon {
+    display: none;
+  }
+
+  .login-btn1 {
+    display: none;
+  }
+}
+
+
+
+
+
+
+.hero-section {
+  /* background: linear-gradient(to bottom right, #3e1d1d, #1b1d29); */
+  padding-top: 100px;
+}
+
+.btn {
+  background-color: #f36f5f;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d24f41;
+}
+
+.alumni-section {
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.scroll-container {
+  /* overflow-x: auto; */
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.alumni-wrapper {
+  /* display: flex; */
+  justify-content: space-around;
+  animation: scroll-left linear infinite;
+
+  /* width: max-content; */
+}
+
+.alumni-card {
+  flex: 0 0 auto;
+  /* width:250px; */
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  height: 500px;
+  width: 350px;
+}
+
+
+
+.card-body {
+  height: fit-content;
+}
+
+
+.card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+
+
+
+
+
+/* alumni section */
+
+.stats-section {
+  /* background: linear-gradient(to bottom, #2d1b33, #000); */
+}
+
+.stats_body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  font-size: ;
+  margin-bottom: 50px;
+}
+
+.stat-box {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgb(62, 61, 61);
+  color: white;
+  transition: transform 0.3s ease;
+  height: min-content;
+  width: 250px;
+  border-radius: 10px;
+  /* justify-content:center; */
+  font-weight: 20px;
+}
+
+.stat-box:hover {
+  /* border: 2px solid white; */
+  color: white;
+  border-color: white;
+
+
+}
+
+.img {
+
+  height: 70px;
+  object-fit: contain;
+  opacity: 0.8;
+}
+
+.btn-course {
+  border-radius: 20px;
+  border-color: rgb(221, 130, 130);
+  background-color: #fad0cc;
+}
+
+.card-img-top {
+  height: 154px;
+  width: 270px;
+}
+
+.category-card {
+  border: 2px solid transparent;
+  border-radius: 10px;
+  padding: 10px 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.category-card.active {
+  border-color: #d7b4f3;
+  background-color: #f5eaff;
+}
+
+.course-card img {
+  border-radius: 8px;
+  height: 154px;
+  width: 270px;
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  background-color: #f0c040;
+}
+
+.course-info {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.scroll-x {
+  /* overflow-x: auto; */
+  white-space: nowrap;
+}
+
+.scroll-x .category-card {
+  display: inline-block;
+}
